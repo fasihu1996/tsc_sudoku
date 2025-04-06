@@ -31,7 +31,7 @@ function Navbar() {
                             <SignUpButton mode="modal" />
                         </SignedOut>
                         <SignedIn>
-                            <UserButton />
+                            <UserButton userProfileMode="modal" />
                         </SignedIn>
                         <ModeToggle />
                     </div>
